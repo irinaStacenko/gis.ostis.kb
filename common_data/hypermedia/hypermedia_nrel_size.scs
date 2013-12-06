@@ -1,0 +1,5 @@
+/!* keyword: hypermedia_nrel_size */
+sc_node_norole_relation -> hypermedia_nrel_size;;
+hypermedia_nrel_size => nrel_main_idtf: [размер*] (* <- lang_ru;; *);;
+hypermedia_nrel_size => nrel_main_idtf: [size*] (* <- lang_en;; *);;
+	
