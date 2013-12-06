@@ -1,0 +1,102 @@
+belarus => nrel_main_idtf:
+[Республика Беларусь] ;;
+belarus => nrel_main_idtf:
+[The Republic of Belarus] ;;
+
+nrel_capital <- sc_node_norole_relation;;
+nrel_capital => nrel_main_idtf:
+[столица*] (* <- lang_ru;; *) ;;
+nrel_capital => nrel_main_idtf:
+[capital*] (* <- lang_en;; *);;
+
+nrel_cities <- sc_node_norole_relation;;
+nrel_cities => nrel_main_idtf:
+[города*] (* <- lang_ru;; *);;
+nrel_cities => nrel_main_idtf:
+[cities*] (* <- lang_en;; *);;
+
+nrel_population <- sc_node_norole_relation;;
+nrel_population => nrel_main_idtf:
+[население*] (* <- lang_ru;; *);;
+nrel_population => nrel_main_idtf:
+[population*] (* <- lang_en;; *);;
+
+nrel_square <- sc_node_norole_relation;;
+nrel_square => nrel_main_idtf:
+[площадь*] (* <- lang_ru;; *);;
+nrel_square => nrel_main_idtf:
+[square*] (* <- lang_en;; *);;
+
+belarus => nrel_capital: minsk;;
+nrel_cities <- quasybinary_relation;;
+belarus <= nrel_cities:
+{
+brest (* => nrel_main_idtf: [Брест] (* <- lang_ru;; *);; => nrel_main_idtf: [Brest](* <- lang_en;; *);; *);
+vitebsk (* => nrel_main_idtf: [Витебск](* <- lang_ru;; *);; => nrel_main_idtf: [Vitebsk](* <- lang_en;; *);; *);
+mogilev (* => nrel_main_idtf: [Могилев](* <- lang_ru;; *);; => nrel_main_idtf: [Mogilev](* <- lang_en;; *);; *);
+grodno (* => nrel_main_idtf: [Гродно](* <- lang_ru;; *);; => nrel_main_idtf: [Grodno](* <- lang_en;; *);; *);
+gomel (* => nrel_main_idtf: [Гомель](* <- lang_ru;; *);; => nrel_main_idtf: [Gomel](* <- lang_en;; *);; *);
+minsk (* => nrel_main_idtf: [Минск](* <- lang_ru;; *);; => nrel_main_idtf: [Minsk](* <- lang_en;; *);; *)
+};;
+
+minsk => nrel_population: [1 900 800];;
+brest => nrel_population: [322 105];;
+grodno => nrel_population: [327 540];;
+vitebsk => nrel_population: [369 411];;
+mogilev => nrel_population: [365 793];;
+gomel => nrel_population: [507 700];;
+
+belarus => nrel_population: [9 463 300];;
+
+belarus => nrel_current_time: "file://time.html";;
+minsk => nrel_location: "file://map.googlemaplink";;
+belarus => nrel_square: [207 600];;
+
+nrel_current_time <- sc_node_norole_relation;;
+nrel_current_time => nrel_main_idtf:
+[текущее время*] (* <- lang_ru;; *);;
+nrel_current_time => nrel_main_idtf:
+[current time*] (* <- lang_en;; *);;
+
+nrel_foundation_date <- sc_node_norole_relation;;
+nrel_foundation_date => nrel_main_idtf:
+[дата основания*] (* <- lang_ru;; *);;
+nrel_foundation_date => nrel_main_idtf:
+[foundation date*] (* <- lang_en;; *);;
+
+nrel_location <- sc_node_norole_relation;;
+nrel_location => nrel_main_idtf:
+[местоположение*] (* <- lang_ru;; *);;
+nrel_location => nrel_main_idtf:
+[location*] (* <- lang_en;; *);;
+
+minsk => nrel_foundation_date: [1067];;
+
+nrel_address <- sc_node_norole_relation;;
+nrel_address => nrel_main_idtf:
+[адрес*] (* <- lang_ru;; *);;
+nrel_address => nrel_main_idtf:
+[address*] (* <- lang_en;; *);;
+
+nrel_video <- sc_node_norole_relation;;
+nrel_video <- quasybinary_relation;;
+nrel_video => nrel_main_idtf:
+	[видео*] (* <- lang_ru;; *);;
+nrel_video => nrel_main_idtf:
+	[video*] (* <- lang_en;; *);;
+belarus <= nrel_video: .set_belarus_video;;
+.set_belarus_video -> "file://belarus1.youtubelink";;
+.set_belarus_video -> "file://belarus2.youtubelink";;
+
+
+nrel_photos <- sc_node_norole_relation;;
+nrel_photos <- quasybinary_relation;;
+nrel_photos => nrel_main_idtf:
+	[фотографии*] (* <- lang_ru;; *);;
+nrel_photos => nrel_main_idtf:
+	[photos*] (* <- lang_en;; *);;
+
+minsk <= nrel_photos: .set_minsk_photos;;
+.set_minsk_photos -> "file://Minsk1.jpg";;
+.set_minsk_photos -> "file://Minsk2.jpg";;
+.set_minsk_photos -> "file://Minsk3.jpg";;
