@@ -1,0 +1,17 @@
+floodplain_landscape=> nrel_main_ru_idtf:
+[Пойменный ландшафт] ;;
+floodplain_landscape => nrel_main_en_idtf:
+[floodplain landscape] ;;
+
+nrel_kinds_on_the_basis_of_the_nature_of_the_relief_and_sediments_in_floodplains => nrel_main_en_idtf:
+[kinds on the basis of the nature of the relief and sediments in floodplains*] ;;
+
+nrel_kinds_on_the_basis_of_the_nature_of_the_relief_and_sediments_in_floodplains <- quasybinary_relation;;
+floodplain_landscape <= nrel_kinds_on_the_basis_of_the_nature_of_the_relief_and_sediments_in_floodplains:
+{
+riverine (* => nrel_main_ru_idtf: [прирусловая];; => nrel_main_en_idtf: [riverine];; *);
+central (* => nrel_main_ru_idtf: [центральная];; => nrel_main_en_idtf: [central];; *);
+of_terrace (* => nrel_main_ru_idtf: [притеррасная];; => nrel_main_en_idtf: [of terrace];; *)
+};;
+
+floodplain_landscape => nrel_defenition: [ландшафт разной степени дренированности с лугами и болотами, сформированный русловай деятельностью рек в границах речной поймы.];;

@@ -1,0 +1,25 @@
+groundwater => nrel_main_ru_idtf:
+[ѕодземные воды] ;;
+groundwater => nrel_main_en_idtf:
+[groundwater] ;;
+
+nrel_kinds_on_the_basis_of_mineralization <- quasybinary_relation;;
+groundwater <= nrel_kinds_on_the_basis_of_mineralization:
+{
+fresh (* => nrel_main_ru_idtf: [пресные];; => nrel_main_en_idtf: [fresh];; *);
+brackish (* => nrel_main_ru_idtf: [солоноватые];; => nrel_main_en_idtf: [brackish];; *);
+salted (* => nrel_main_ru_idtf: [солЄные];; => nrel_main_en_idtf: [salted];; *);
+brines (* => nrel_main_ru_idtf: [рассолы];; => nrel_main_en_idtf: [brines];; *);
+hot (* => nrel_main_ru_idtf: [гор€чие];; => nrel_main_en_idtf: [hot];; *);
+very_hot (* => nrel_main_ru_idtf: [очень гор€чие];; => nrel_main_en_idtf: [very hot];; *)
+};;
+
+nrel_states <- quasybinary_relation;;
+groundwater <= nrel_states:
+{
+[твЄрдое];
+[жидкое];
+[газообразное]
+};;
+
+groundwater => nrel_defenition: [воды, наход€щиес€ в толщах горн. пород верхней части земной коры в жидком, твЄрдом и парообразном состо€нии.];;

@@ -1,0 +1,30 @@
+feldspars=> nrel_main_ru_idtf:
+[ѕолевые шпаты] ;;
+feldspars => nrel_main_en_idtf:
+[feldspars] ;;
+
+nrel_kinds_by_the_chemical_composition <- quasybinary_relation;;
+feldspars <= nrel_kinds_by_the_chemical_composition:
+{
+calcium-sodium (* => nrel_main_ru_idtf: [кальциево-натриевые];; => nrel_main_en_idtf: [calcium-sodium];; *);
+potassium-sodium (* => nrel_main_ru_idtf: [калиево-натриевые];; => nrel_main_en_idtf: [potassium-sodium];; *);
+potassium-barium (* => nrel_main_ru_idtf: [калиево-бариевые];; => nrel_main_en_idtf: [potassium-barium];; *)
+};;
+
+feldspars => nrel_density: [2,54 Ц 2,57 г/см3];;
+
+feldspars => nrel_hardness: [6 Ц 6,5];;
+
+nrel_color <- quasybinary_relation;;
+feldspars <= nrel_color:
+{
+[белый];
+[желтоватый];
+[бледно-розовый];
+[м€со-красный];
+[тЄмно-серый];
+[чЄрный];
+[бесцветный]
+};;
+
+feldspars => nrel_defenition: [ландшафт разной степени дренированности с лугами и болотами, сформированный русловай де€тельностью рек в границах речной поймы.];;

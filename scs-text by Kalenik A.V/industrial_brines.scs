@@ -1,0 +1,14 @@
+industrial_brines => nrel_main_ru_idtf:
+[Промышленные рассолы] ;;
+industrial_brines => nrel_main_en_idtf:
+[industrial_brines] ;;
+
+nrel_states <- quasybinary_relation;;
+industrial_brines <= nrel_states:
+{
+[жидкое];
+[твёрдое];
+[парообразное]
+};;
+
+industrial_brines => nrel_defenition: [воды, находящиеся в толщах горных пород верхней части земной коры в жидком, твёрдом и парообразном состоянии.];;

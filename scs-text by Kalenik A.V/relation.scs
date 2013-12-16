@@ -1,0 +1,129 @@
+nrel_defenition <- sc_node_norole_relation;;
+nrel_defenition => nrel_main_ru_idtf:
+[определение*] ;;
+nrel_defenition => nrel_main_en_idtf:
+[defenition*] ;;
+
+nrel_textual_explanation <- sc_node_norole_relation;;
+nrel_textual_explanation => nrel_main_ru_idtf:
+[текстовое пояснение*] ;;
+nrel_textual_explanation => nrel_main_en_idtf:
+[textual explanation*] ;;
+
+nrel_time_periods <- sc_node_norole_relation;;
+nrel_time_periods => nrel_main_ru_idtf:
+[временные периоды*] ;;
+nrel_time_periods => nrel_main_en_idtf:
+[time periods*] ;;
+
+nrel_kinds <- sc_node_norole_relation;;
+nrel_kinds => nrel_main_ru_idtf:
+[виды*] ;;
+nrel_kinds => nrel_main_en_idtf:
+[kinds*] ;;
+
+nrel_duration <- sc_node_norole_relation;;
+nrel_duration => nrel_main_ru_idtf:
+[продолжительность*] ;;
+nrel_duration => nrel_main_en_idtf:
+[duration*] ;;
+
+nrel_life <- sc_node_norole_relation;;
+nrel_life  => nrel_main_ru_idtf:
+[образ жизни*] ;;
+nrel_life  => nrel_main_en_idtf:
+[life*] ;;
+
+nrel_dwelling <- sc_node_norole_relation;;
+nrel_dwelling  => nrel_main_ru_idtf:
+[обитание*] ;;
+nrel_dwelling  => nrel_main_en_idtf:
+[dwelling*] ;;
+
+nrel_hardness <- sc_node_norole_relation;;
+nrel_hardness => nrel_main_ru_idtf:
+[твёрдость*] ;;
+nrel_hardness => nrel_main_en_idtf:
+[hardness*] ;;
+
+nrel_density <- sc_node_norole_relation;;
+nrel_density => nrel_main_ru_idtf:
+[плотность*] ;;
+nrel_density => nrel_main_en_idtf:
+[density*] ;;
+
+nrel_color <- sc_node_norole_relation;;
+nrel_color => nrel_main_ru_idtf:
+[цвет*] ;;
+nrel_color => nrel_main_en_idtf:
+[color*] ;;
+
+nrel_kinds_by_the_chemical_composition <- sc_node_norole_relation;;
+nrel_kinds_by_the_chemical_composition => nrel_main_ru_idtf:
+[виды по химическому составу*] ;;
+nrel_kinds_by_the_chemical_composition => nrel_main_en_idtf:
+[kinds by the chemical composition*] ;;
+
+nrel_kinds_on_the_basis_of_the_nature_of_the_relief_and_sediments_in_floodplains <- sc_node_norole_relation;;
+nrel_kinds_on_the_basis_of_the_nature_of_the_relief_and_sediments_in_floodplains => nrel_main_ru_idtf:
+[виды по признаку характер рельефа и отложений в поймах*] ;;
+
+nrel_kinds_on_the_basis_of_mineralization <- sc_node_norole_relation;;
+nrel_kinds_on_the_basis_of_mineralization => nrel_main_ru_idtf:
+[виды по признаку минерализация*] ;;
+nrel_kinds_on_the_basis_of_mineralization => nrel_main_en_idtf:
+[kinds on the basis of mineralization*] ;;
+
+nrel_states <- sc_node_norole_relation;;
+nrel_states => nrel_main_ru_idtf:
+[состояния*] ;;
+nrel_states => nrel_main_en_idtf:
+[states*] ;;
+
+nrel_method_of_formation <- sc_node_norole_relation;;
+nrel_method_of_formation => nrel_main_ru_idtf:
+[способ образования*] ;;
+nrel_method_of_formation => nrel_main_en_idtf:
+[method of formation*] ;
+
+nrel_kinds_on_the_basis_of_soluble_salts <- sc_node_norole_relation;;
+nrel_kinds_on_the_basis_of_soluble_salts => nrel_main_ru_idtf:
+[виды по признаку содержания растворимых солей*] ;;
+nrel_kinds_on_the_basis_of_soluble_salts => nrel_main_en_idtf:
+[kinds on the basis of soluble salts*] ;;
+
+nrel_kinds_on_the_basis_of_the_presence_of_sulphides <- sc_node_norole_relation;;
+nrel_kinds_on_the_basis_of_the_presence_of_sulphides => nrel_main_ru_idtf:
+[виды по признаку наличия сульфидов*] ;;
+nrel_kinds_on_the_basis_of_the_presence_of_sulphides => nrel_main_en_idtf:
+[kinds on the basis of the presence of sulphides*] ;;
+
+nrel_kinds_on_the_basis_of_a_method_for_forming <- sc_node_norole_relation;;
+nrel_kinds_on_the_basis_of_a_method_for_forming => nrel_main_ru_idtf:
+[виды по признаку способа образования*] ;;
+nrel_kinds_on_the_basis_of_a_method_for_forming => nrel_main_en_idtf:
+[kinds on the basis of a method for forming*] ;;
+
+nrel_main_types_of_rocks_studied <- sc_node_norole_relation;;
+nrel_main_types_of_rocks_studied => nrel_main_ru_idtf:
+[виды по признаку способа образования*] ;;
+nrel_main_types_of_rocks_studied => nrel_main_en_idtf:
+[main types of rocks studied*] ;;
+
+nrel_periods <- sc_node_norole_relation;;
+nrel_periods  => nrel_main_ru_idtf:
+[периоды*] ;;
+nrel_periods  => nrel_main_en_idtf:
+[periods *] ;;
+
+nrel_kinds_on_the_basis_of_a_method_for_forming <- sc_node_norole_relation;;
+nrel_kinds_on_the_basis_of_a_method_for_forming => nrel_main_ru_idtf:
+[виды по признаку способа образования*] ;;
+nrel_kinds_on_the_basis_of_a_method_for_forming => nrel_main_en_idtf:
+[kinds on the basis of a method for forming*] ;;
+
+nrel_forms <- sc_node_norole_relation;;
+nrel_forms => nrel_main_ru_idtf:
+[формы*] ;;
+nrel_forms => nrel_main_en_idtf:
+[forms*] ;;
