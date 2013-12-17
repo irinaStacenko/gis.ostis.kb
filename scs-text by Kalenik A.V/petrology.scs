@@ -1,0 +1,15 @@
+petrology => nrel_main_ru_idtf:
+[Петрология] ;;
+petrology => nrel_main_en_idtf:
+[petrology] ;;
+
+nrel_main_types_of_rocks_studied <- quasybinary_relation;;
+petrology <= nrel_main_types_of_rocks_studied:
+{
+igneous_petrology (* => nrel_main_ru_idtf: [магматическая петрография];; => nrel_main_en_idtf: [igneous petrology];; *);
+metamorphic_petrology (* => nrel_main_ru_idtf: [метаморфическая петрография];; => nrel_main_en_idtf: [metamorphic petrology];; *);
+petrology_of_sedimentary_rocks (* => nrel_main_ru_idtf: [петрография осадочных горных пород];; => nrel_main_en_idtf: [petrology of sedimentary rocks];; *);
+petrography_technical_stone (* => nrel_main_ru_idtf: [петрография технического камня];; => nrel_main_en_idtf: [petrography technical stone];; *)
+};;
+
+petrology => nrel_defenition: [наука о составе и происхождении горных пород];;

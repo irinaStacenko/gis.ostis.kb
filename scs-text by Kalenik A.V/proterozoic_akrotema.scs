@@ -1,0 +1,14 @@
+proterozoic_akrotema => nrel_main_ru_idtf:
+[Протерозойская акротема] ;;
+proterozoic_akrotema => nrel_main_en_idtf:
+[Proterozoic akrotema] ;;
+
+nrel_periods  <- quasybinary_relation;;
+industrial_brines <= nrel_periods :
+{
+[ранний];
+[средний];
+[поздний]
+};;
+
+proterozoic_akrotema => nrel_defenition: [верхнее подразделение докембрия длительностью св. 2 млрд. лет. Внизу граничит с археем. Нижняя граница протерозоя 2600 . 100 млн. лет.];;

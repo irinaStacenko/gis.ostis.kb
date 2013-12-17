@@ -1,0 +1,24 @@
+written granite => nrel_main_ru_idtf:
+[Письменный гранит] ;;
+written granite => nrel_main_en_idtf:
+[written granite] ;;
+
+nrel_kinds <- quasybinary_relation;;
+written granite <= nrel_kinds:
+{
+ceramic (* => nrel_main_ru_idtf: [керамические];; => nrel_main_en_idtf: [ceramic];; *);
+mica-bearing (* => nrel_main_ru_idtf: [слюдоносные];; => nrel_main_en_idtf: [mica-bearing];; *);
+rare (* => nrel_main_ru_idtf: [редкоземельные];; => nrel_main_en_idtf: [rare];; *);
+rare_metal (* => nrel_main_ru_idtf: [редкометальные];; => nrel_main_en_idtf: [rare metal];; *);
+rock_crystal (* => nrel_main_ru_idtf: [хрусталеносные];; => nrel_main_en_idtf: [rock crystal];; *)
+};;
+
+nrel_forms <- quasybinary_relation;;
+written granite <= nrel_forms:
+{
+[жила];
+[линза];
+[штокообразное тело]
+};;
+
+written granite => nrel_defenition: [преимущественно крупнозернистая магматическая горная порода; обычно содержит минералы, в состав которых входят F, Br, Cl, H2O и другие легколетучие компоненты, часто редкие и рассеянные элементы. Залегает в виде жил, линз, гнёзд. Различают пегматиты, генетически связанные с кислыми (гранитами, гранодиоритами), щелочными (сиенитами, нефелиновыми сиенитами), основными (габбро) и другими магматическими породами. Используются как керамическое и стекольное сырьё. Нередко пегматиты содержат пьезооптические минералы, слюды, самоцветы; с наиболее распространёнными гранитными пегматитами связаны месторождения руд редких и редкоземельных металлов.];;
