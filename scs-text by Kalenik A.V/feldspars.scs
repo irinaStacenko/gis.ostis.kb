@@ -1,30 +1,30 @@
-feldspars=> nrel_main_ru_idtf:
-[Полевые шпаты] ;;
+п»їfeldspars=> nrel_main_ru_idtf:
+[РџРѕР»РµРІС‹Рµ С€РїР°С‚С‹] ;;
 feldspars => nrel_main_en_idtf:
 [feldspars] ;;
 
 nrel_kinds_by_the_chemical_composition <- quasybinary_relation;;
 feldspars <= nrel_kinds_by_the_chemical_composition:
 {
-calcium-sodium (* => nrel_main_ru_idtf: [кальциево-натриевые];; => nrel_main_en_idtf: [calcium-sodium];; *);
-potassium-sodium (* => nrel_main_ru_idtf: [калиево-натриевые];; => nrel_main_en_idtf: [potassium-sodium];; *);
-potassium-barium (* => nrel_main_ru_idtf: [калиево-бариевые];; => nrel_main_en_idtf: [potassium-barium];; *)
+calcium-sodium (* => nrel_main_ru_idtf: [РєР°Р»СЊС†РёРµРІРѕ-РЅР°С‚СЂРёРµРІС‹Рµ];; => nrel_main_en_idtf: [calcium-sodium];; *);
+potassium-sodium (* => nrel_main_ru_idtf: [РєР°Р»РёРµРІРѕ-РЅР°С‚СЂРёРµРІС‹Рµ];; => nrel_main_en_idtf: [potassium-sodium];; *);
+potassium-barium (* => nrel_main_ru_idtf: [РєР°Р»РёРµРІРѕ-Р±Р°СЂРёРµРІС‹Рµ];; => nrel_main_en_idtf: [potassium-barium];; *)
 };;
 
-feldspars => nrel_density: [2,54 – 2,57 г/см3];;
+feldspars => nrel_density: [2,54 вЂ“ 2,57 Рі/СЃРј3];;
 
-feldspars => nrel_hardness: [6 – 6,5];;
+feldspars => nrel_hardness: [6 вЂ“ 6,5];;
 
 nrel_color <- quasybinary_relation;;
 feldspars <= nrel_color:
 {
-[белый];
-[желтоватый];
-[бледно-розовый];
-[мясо-красный];
-[тёмно-серый];
-[чёрный];
-[бесцветный]
+[Р±РµР»С‹Р№];
+[Р¶РµР»С‚РѕРІР°С‚С‹Р№];
+[Р±Р»РµРґРЅРѕ-СЂРѕР·РѕРІС‹Р№];
+[РјСЏСЃРѕ-РєСЂР°СЃРЅС‹Р№];
+[С‚С‘РјРЅРѕ-СЃРµСЂС‹Р№];
+[С‡С‘СЂРЅС‹Р№];
+[Р±РµСЃС†РІРµС‚РЅС‹Р№]
 };;
 
-feldspars => nrel_defenition: [ландшафт разной степени дренированности с лугами и болотами, сформированный русловай деятельностью рек в границах речной поймы.];;
+feldspars => nrel_defenition: [Р»Р°РЅРґС€Р°С„С‚ СЂР°Р·РЅРѕР№ СЃС‚РµРїРµРЅРё РґСЂРµРЅРёСЂРѕРІР°РЅРЅРѕСЃС‚Рё СЃ Р»СѓРіР°РјРё Рё Р±РѕР»РѕС‚Р°РјРё, СЃС„РѕСЂРјРёСЂРѕРІР°РЅРЅС‹Р№ СЂСѓСЃР»РѕРІР°Р№ РґРµСЏС‚РµР»СЊРЅРѕСЃС‚СЊСЋ СЂРµРє РІ РіСЂР°РЅРёС†Р°С… СЂРµС‡РЅРѕР№ РїРѕР№РјС‹.];;

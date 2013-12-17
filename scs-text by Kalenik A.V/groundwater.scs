@@ -1,25 +1,25 @@
-groundwater => nrel_main_ru_idtf:
-[œÓ‰ÁÂÏÌ˚Â ‚Ó‰˚] ;;
+Ôªøgroundwater => nrel_main_ru_idtf:
+[–ü–æ–¥–∑–µ–º–Ω—ã–µ –≤–æ–¥—ã] ;;
 groundwater => nrel_main_en_idtf:
 [groundwater] ;;
 
 nrel_kinds_on_the_basis_of_mineralization <- quasybinary_relation;;
 groundwater <= nrel_kinds_on_the_basis_of_mineralization:
 {
-fresh (* => nrel_main_ru_idtf: [ÔÂÒÌ˚Â];; => nrel_main_en_idtf: [fresh];; *);
-brackish (* => nrel_main_ru_idtf: [ÒÓÎÓÌÓ‚‡Ú˚Â];; => nrel_main_en_idtf: [brackish];; *);
-salted (* => nrel_main_ru_idtf: [ÒÓÎ∏Ì˚Â];; => nrel_main_en_idtf: [salted];; *);
-brines (* => nrel_main_ru_idtf: [‡ÒÒÓÎ˚];; => nrel_main_en_idtf: [brines];; *);
-hot (* => nrel_main_ru_idtf: [„Óˇ˜ËÂ];; => nrel_main_en_idtf: [hot];; *);
-very_hot (* => nrel_main_ru_idtf: [Ó˜ÂÌ¸ „Óˇ˜ËÂ];; => nrel_main_en_idtf: [very hot];; *)
+fresh (* => nrel_main_ru_idtf: [–ø—Ä–µ—Å–Ω—ã–µ];; => nrel_main_en_idtf: [fresh];; *);
+brackish (* => nrel_main_ru_idtf: [—Å–æ–ª–æ–Ω–æ–≤–∞—Ç—ã–µ];; => nrel_main_en_idtf: [brackish];; *);
+salted (* => nrel_main_ru_idtf: [—Å–æ–ª—ë–Ω—ã–µ];; => nrel_main_en_idtf: [salted];; *);
+brines (* => nrel_main_ru_idtf: [—Ä–∞—Å—Å–æ–ª—ã];; => nrel_main_en_idtf: [brines];; *);
+hot (* => nrel_main_ru_idtf: [–≥–æ—Ä—è—á–∏–µ];; => nrel_main_en_idtf: [hot];; *);
+very_hot (* => nrel_main_ru_idtf: [–æ—á–µ–Ω—å –≥–æ—Ä—è—á–∏–µ];; => nrel_main_en_idtf: [very hot];; *)
 };;
 
 nrel_states <- quasybinary_relation;;
 groundwater <= nrel_states:
 {
-[Ú‚∏‰ÓÂ];
-[ÊË‰ÍÓÂ];
-[„‡ÁÓÓ·‡ÁÌÓÂ]
+[—Ç–≤—ë—Ä–¥–æ–µ];
+[–∂–∏–¥–∫–æ–µ];
+[–≥–∞–∑–æ–æ–±—Ä–∞–∑–Ω–æ–µ]
 };;
 
-groundwater => nrel_defenition: [‚Ó‰˚, Ì‡ıÓ‰ˇ˘ËÂÒˇ ‚ ÚÓÎ˘‡ı „ÓÌ. ÔÓÓ‰ ‚ÂıÌÂÈ ˜‡ÒÚË ÁÂÏÌÓÈ ÍÓ˚ ‚ ÊË‰ÍÓÏ, Ú‚∏‰ÓÏ Ë Ô‡ÓÓ·‡ÁÌÓÏ ÒÓÒÚÓˇÌËË.];;
+groundwater => nrel_defenition: [–≤–æ–¥—ã, –Ω–∞—Ö–æ–¥—è—â–∏–µ—Å—è –≤ —Ç–æ–ª—â–∞—Ö –≥–æ—Ä–Ω. –ø–æ—Ä–æ–¥ –≤–µ—Ä—Ö–Ω–µ–π —á–∞—Å—Ç–∏ –∑–µ–º–Ω–æ–π –∫–æ—Ä—ã –≤ –∂–∏–¥–∫–æ–º, —Ç–≤—ë—Ä–¥–æ–º –∏ –ø–∞—Ä–æ–æ–±—Ä–∞–∑–Ω–æ–º —Å–æ—Å—Ç–æ—è–Ω–∏–∏.];;
