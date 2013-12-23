@@ -1,4 +1,4 @@
-﻿feldspars=> nrel_main_ru_idtf:
+feldspars=> nrel_main_ru_idtf:
 [Полевые шпаты] ;;
 feldspars => nrel_main_en_idtf:
 [feldspars] ;;
@@ -6,9 +6,9 @@ feldspars => nrel_main_en_idtf:
 nrel_kinds_by_the_chemical_composition <- quasybinary_relation;;
 feldspars <= nrel_kinds_by_the_chemical_composition:
 {
-calcium-sodium (* => nrel_main_ru_idtf: [кальциево-натриевые];; => nrel_main_en_idtf: [calcium-sodium];; *);
-potassium-sodium (* => nrel_main_ru_idtf: [калиево-натриевые];; => nrel_main_en_idtf: [potassium-sodium];; *);
-potassium-barium (* => nrel_main_ru_idtf: [калиево-бариевые];; => nrel_main_en_idtf: [potassium-barium];; *)
+calcium_sodium (* => nrel_main_ru_idtf: [кальциево_натриевые];; => nrel_main_en_idtf: [calcium_sodium];; *);
+potassium_sodium (* => nrel_main_ru_idtf: [калиево_натриевые];; => nrel_main_en_idtf: [potassium_sodium];; *);
+potassium_barium (* => nrel_main_ru_idtf: [калиево_бариевые];; => nrel_main_en_idtf: [potassium_barium];; *)
 };;
 
 feldspars => nrel_density: [2,54 – 2,57 г/см3];;
@@ -20,9 +20,9 @@ feldspars <= nrel_color:
 {
 [белый];
 [желтоватый];
-[бледно-розовый];
-[мясо-красный];
-[тёмно-серый];
+[бледно_розовый];
+[мясо_красный];
+[тёмно_серый];
 [чёрный];
 [бесцветный]
 };;

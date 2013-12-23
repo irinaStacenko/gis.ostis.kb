@@ -1,4 +1,4 @@
-﻿written granite => nrel_main_ru_idtf:
+written granite => nrel_main_ru_idtf:
 [Письменный гранит] ;;
 written granite => nrel_main_en_idtf:
 [written granite] ;;
@@ -7,7 +7,7 @@ nrel_kinds <- quasybinary_relation;;
 written granite <= nrel_kinds:
 {
 ceramic (* => nrel_main_ru_idtf: [керамические];; => nrel_main_en_idtf: [ceramic];; *);
-mica-bearing (* => nrel_main_ru_idtf: [слюдоносные];; => nrel_main_en_idtf: [mica-bearing];; *);
+mica_bearing (* => nrel_main_ru_idtf: [слюдоносные];; => nrel_main_en_idtf: [mica_bearing];; *);
 rare (* => nrel_main_ru_idtf: [редкоземельные];; => nrel_main_en_idtf: [rare];; *);
 rare_metal (* => nrel_main_ru_idtf: [редкометальные];; => nrel_main_en_idtf: [rare metal];; *);
 rock_crystal (* => nrel_main_ru_idtf: [хрусталеносные];; => nrel_main_en_idtf: [rock crystal];; *)

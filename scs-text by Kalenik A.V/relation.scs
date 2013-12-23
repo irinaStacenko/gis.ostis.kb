@@ -1,4 +1,4 @@
-﻿nrel_defenition <- sc_node_norole_relation;;
+nrel_defenition <- sc_node_norole_relation;;
 nrel_defenition => nrel_main_ru_idtf:
 [определение*] ;;
 nrel_defenition => nrel_main_en_idtf:
