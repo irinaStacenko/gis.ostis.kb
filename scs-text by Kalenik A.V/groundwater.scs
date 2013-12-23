@@ -1,25 +1,25 @@
 groundwater => nrel_main_ru_idtf:
-[Подземные воды] ;;
+[РџРѕРґР·РµРјРЅС‹Рµ РІРѕРґС‹] ;;
 groundwater => nrel_main_en_idtf:
 [groundwater] ;;
 
 nrel_kinds_on_the_basis_of_mineralization <- quasybinary_relation;;
 groundwater <= nrel_kinds_on_the_basis_of_mineralization:
 {
-fresh (* => nrel_main_ru_idtf: [пресные];; => nrel_main_en_idtf: [fresh];; *);
-brackish (* => nrel_main_ru_idtf: [солоноватые];; => nrel_main_en_idtf: [brackish];; *);
-salted (* => nrel_main_ru_idtf: [солёные];; => nrel_main_en_idtf: [salted];; *);
-brines (* => nrel_main_ru_idtf: [рассолы];; => nrel_main_en_idtf: [brines];; *);
-hot (* => nrel_main_ru_idtf: [горячие];; => nrel_main_en_idtf: [hot];; *);
-very_hot (* => nrel_main_ru_idtf: [очень горячие];; => nrel_main_en_idtf: [very hot];; *)
+fresh (* => nrel_main_ru_idtf: [РїСЂРµСЃРЅС‹Рµ];; => nrel_main_en_idtf: [fresh];; *);
+brackish (* => nrel_main_ru_idtf: [СЃРѕР»РѕРЅРѕРІР°С‚С‹Рµ];; => nrel_main_en_idtf: [brackish];; *);
+salted (* => nrel_main_ru_idtf: [СЃРѕР»С‘РЅС‹Рµ];; => nrel_main_en_idtf: [salted];; *);
+brines (* => nrel_main_ru_idtf: [СЂР°СЃСЃРѕР»С‹];; => nrel_main_en_idtf: [brines];; *);
+hot (* => nrel_main_ru_idtf: [РіРѕСЂСЏС‡РёРµ];; => nrel_main_en_idtf: [hot];; *);
+very_hot (* => nrel_main_ru_idtf: [РѕС‡РµРЅСЊ РіРѕСЂСЏС‡РёРµ];; => nrel_main_en_idtf: [very hot];; *)
 };;
 
 nrel_states <- quasybinary_relation;;
 groundwater <= nrel_states:
 {
-[твёрдое];
-[жидкое];
-[газообразное]
+[С‚РІС‘СЂРґРѕРµ];
+[Р¶РёРґРєРѕРµ];
+[РіР°Р·РѕРѕР±СЂР°Р·РЅРѕРµ]
 };;
 
-groundwater => nrel_defenition: [воды, находящиеся в толщах горн. пород верхней части земной коры в жидком, твёрдом и парообразном состоянии.];;
+groundwater => nrel_defenition: [РІРѕРґС‹, РЅР°С…РѕРґСЏС‰РёРµСЃСЏ РІ С‚РѕР»С‰Р°С… РіРѕСЂРЅ. РїРѕСЂРѕРґ РІРµСЂС…РЅРµР№ С‡Р°СЃС‚Рё Р·РµРјРЅРѕР№ РєРѕСЂС‹ РІ Р¶РёРґРєРѕРј, С‚РІС‘СЂРґРѕРј Рё РїР°СЂРѕРѕР±СЂР°Р·РЅРѕРј СЃРѕСЃС‚РѕСЏРЅРёРё.];;

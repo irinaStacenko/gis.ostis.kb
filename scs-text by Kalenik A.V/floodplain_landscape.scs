@@ -1,5 +1,5 @@
 floodplain_landscape=> nrel_main_ru_idtf:
-[œÓÈÏÂÌÌ˚È Î‡Ì‰¯‡ÙÚ] ;;
+[–ü–æ–π–º–µ–Ω–Ω—ã–π –ª–∞–Ω–¥—à–∞—Ñ—Ç] ;;
 floodplain_landscape => nrel_main_en_idtf:
 [floodplain landscape] ;;
 
@@ -9,9 +9,9 @@ nrel_kinds_on_the_basis_of_the_nature_of_the_relief_and_sediments_in_floodplains
 nrel_kinds_on_the_basis_of_the_nature_of_the_relief_and_sediments_in_floodplains <- quasybinary_relation;;
 floodplain_landscape <= nrel_kinds_on_the_basis_of_the_nature_of_the_relief_and_sediments_in_floodplains:
 {
-riverine (* => nrel_main_ru_idtf: [ÔËÛÒÎÓ‚‡ˇ];; => nrel_main_en_idtf: [riverine];; *);
-central (* => nrel_main_ru_idtf: [ˆÂÌÚ‡Î¸Ì‡ˇ];; => nrel_main_en_idtf: [central];; *);
-of_terrace (* => nrel_main_ru_idtf: [ÔËÚÂ‡ÒÌ‡ˇ];; => nrel_main_en_idtf: [of terrace];; *)
+riverine (* => nrel_main_ru_idtf: [–ø—Ä–∏—Ä—É—Å–ª–æ–≤–∞—è];; => nrel_main_en_idtf: [riverine];; *);
+central (* => nrel_main_ru_idtf: [—Ü–µ–Ω—Ç—Ä–∞–ª—å–Ω–∞—è];; => nrel_main_en_idtf: [central];; *);
+of_terrace (* => nrel_main_ru_idtf: [–ø—Ä–∏—Ç–µ—Ä—Ä–∞—Å–Ω–∞—è];; => nrel_main_en_idtf: [of terrace];; *)
 };;
 
-floodplain_landscape => nrel_defenition: [Î‡Ì‰¯‡ÙÚ ‡ÁÌÓÈ ÒÚÂÔÂÌË ‰ÂÌËÓ‚‡ÌÌÓÒÚË Ò ÎÛ„‡ÏË Ë ·ÓÎÓÚ‡ÏË, ÒÙÓÏËÓ‚‡ÌÌ˚È ÛÒÎÓ‚‡È ‰ÂˇÚÂÎ¸ÌÓÒÚ¸˛ ÂÍ ‚ „‡ÌËˆ‡ı Â˜ÌÓÈ ÔÓÈÏ˚.];;
+floodplain_landscape => nrel_defenition: [–ª–∞–Ω–¥—à–∞—Ñ—Ç —Ä–∞–∑–Ω–æ–π —Å—Ç–µ–ø–µ–Ω–∏ –¥—Ä–µ–Ω–∏—Ä–æ–≤–∞–Ω–Ω–æ—Å—Ç–∏ —Å –ª—É–≥–∞–º–∏ –∏ –±–æ–ª–æ—Ç–∞–º–∏, —Å—Ñ–æ—Ä–º–∏—Ä–æ–≤–∞–Ω–Ω—ã–π —Ä—É—Å–ª–æ–≤–∞–π –¥–µ—è—Ç–µ–ª—å–Ω–æ—Å—Ç—å—é —Ä–µ–∫ –≤ –≥—Ä–∞–Ω–∏—Ü–∞—Ö —Ä–µ—á–Ω–æ–π –ø–æ–π–º—ã.];;

@@ -1,15 +1,15 @@
 limnokaltsit => nrel_main_ru_idtf:
-[ÀËÏÌÓÍ‡Î¸ˆËÚ] ;;
+[–õ–∏–º–Ω–æ–∫–∞–ª—å—Ü–∏—Ç] ;;
 limnokaltsit => nrel_main_en_idtf:
 [Limnokaltsit] ;;
 
-limnokaltsit => nrel_color:[Ò‚ÂÚÎÓ-ÒÂ˚È];;
+limnokaltsit => nrel_color:[—Å–≤–µ—Ç–ª–æ-—Å–µ—Ä—ã–π];;
 
 nrel_state <- quasybinary_relation;;
 limnokaltsit <= nrel_state:
 {
-plastic (* => nrel_main_ru_idtf: [ÔÎ‡ÒÚË˜Ì˚È];; => nrel_main_en_idtf: [plastic];; *);
-loose (* => nrel_main_ru_idtf: [˚ıÎ˚È];; => nrel_main_en_idtf: [loose];; *)
+plastic (* => nrel_main_ru_idtf: [–ø–ª–∞—Å—Ç–∏—á–Ω—ã–π];; => nrel_main_en_idtf: [plastic];; *);
+loose (* => nrel_main_ru_idtf: [—Ä—ã—Ö–ª—ã–π];; => nrel_main_en_idtf: [loose];; *)
 };;
 
-limnokaltsit => nrel_defenition: [‡ÒÒ˚Ô˜‡Ú‡ˇ „ÓÌ‡ˇ ÔÓÓ‰‡, ÔÂ‰ÒÚ‡‚Îˇ˛˘‡ˇ ÒÓ·ÓÈ ËÎÓ‚‡ÚÛ˛, ‚Ó ‚Î‡ÊÌÓÏ ÒÓÒÚÓˇÌËË ÌÂÒÍÓÎ¸ÍÓ ÔÎ‡ÒÚË˜ÌÛ˛, Ì‡ ‚ÓÁ‰ÛıÂ ÔÓÒÎÂ ‚˚Ò˚ı‡ÌËˇ ˚ıÎÛ˛ Ï‡ÒÒÛ Û„ÎÂÍËÒÎÓ„Ó Í‡Î¸ˆËˇ, ÏÂÎÓÔÓ‰Ó·ÌÓ„Ó ‚Ë‰‡.];;
+limnokaltsit => nrel_defenition: [—Ä–∞—Å—Å—ã–ø—á–∞—Ç–∞—è –≥–æ—Ä–Ω–∞—è –ø–æ—Ä–æ–¥–∞, –ø—Ä–µ–¥—Å—Ç–∞–≤–ª—è—é—â–∞—è —Å–æ–±–æ–π –∏–ª–æ–≤–∞—Ç—É—é, –≤–æ –≤–ª–∞–∂–Ω–æ–º —Å–æ—Å—Ç–æ—è–Ω–∏–∏ –Ω–µ—Å–∫–æ–ª—å–∫–æ –ø–ª–∞—Å—Ç–∏—á–Ω—É—é, –Ω–∞ –≤–æ–∑–¥—É—Ö–µ –ø–æ—Å–ª–µ –≤—ã—Å—ã—Ö–∞–Ω–∏—è —Ä—ã—Ö–ª—É—é –º–∞—Å—Å—É —É–≥–ª–µ–∫–∏—Å–ª–æ–≥–æ –∫–∞–ª—å—Ü–∏—è, –º–µ–ª–æ–ø–æ–¥–æ–±–Ω–æ–≥–æ –≤–∏–¥–∞.];;
