@@ -1,0 +1,64 @@
+kalinkavichy => nrel_main_ru_idtf:
+[Калинковичи] ;;
+kalinkavichy => nrel_main_en_idtf:
+[Kalinkavichy] ;;
+
+
+nrel_population <- sc_node_norole_relation;;
+nrel_population => nrel_main_ru_idtf:
+[население*] ;;
+nrel_population => nrel_main_en_idtf:
+[population*] ;;
+
+
+nrel_foundation_date <- sc_node_norole_relation;;
+nrel_foundation_date => nrel_main_ru_idtf:
+[дата основания*] ;;
+nrel_foundation_date => nrel_main_en_idtf:
+[foundation date*] ;;
+
+nrel_region <- sc_node_norole_relation;;
+nrel_region => nrel_main_ru_idtf:
+[область*] ;;
+nrel_region => nrel_main_en_idtf:
+[region*] ;;
+
+nrel_district <- sc_node_norole_relation;;
+nrel_district => nrel_main_ru_idtf:
+[район*] ;;
+nrel_district => nrel_main_en_idtf:
+[district*] ;;
+
+nrel_locality <- sc_node_norole_relation;;
+nrel_locality => nrel_main_ru_idtf:
+[населенный пункт*] ;;
+nrel_locality => nrel_main_en_idtf:
+[locality*] ;;
+
+nrel_state <- sc_node_norole_relation;;
+nrel_state => nrel_main_ru_idtf:
+[состояние*] ;;
+nrel_state => nrel_main_en_idtf:
+[state*] ;;
+
+nrel_politic <- sc_node_norole_relation;;
+nrel_politic => nrel_main_ru_idtf:
+[политико-административное значение*] ;;
+nrel_politic => nrel_main_en_idtf:
+[political-administrative value*] ;;
+
+nrel_native <- sc_node_norole_relation;;
+nrel_native => nrel_main_ru_idtf:
+[известный уроженец и житель*] ;;
+nrel_native => nrel_main_en_idtf:
+[native*] ;;
+
+kalinkavichy=> nrel_population: [38 400];;
+kalinkavichy=> nrel_foundation_date: [1560];;
+kalinkavichy=> nrel_region: [Гомельская область];; 
+kalinkavichy=> nrel_district: [Калинковичский район];;
+kalinkavichy=> nrel_locality: [город Калинковичи];;
+kalinkavichy=> nrel_state: [жилой] ;;
+kalinkavichy=> nrel_politic: [центр района] ;;
+kalinkavichy=> nrel_native: [Глоберман Иехошуа] ;;
+kalinkavichy=> nrel_native: [Казько Виктор Афанасьевич] ;;
