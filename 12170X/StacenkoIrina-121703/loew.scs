@@ -1,0 +1,65 @@
+loew => nrel_main_ru_idtf:
+[Лоев] ;;
+loew => nrel_main_en_idtf:
+[Loew] ;;
+
+nrel_population <- sc_node_norole_relation;;
+nrel_population => nrel_main_ru_idtf:
+[население*] ;;
+nrel_population => nrel_main_en_idtf:
+[population*] ;;
+
+nrel_foundation_date <- sc_node_norole_relation;;
+nrel_foundation_date => nrel_main_ru_idtf:
+[дата основания*] ;;
+nrel_foundation_date => nrel_main_en_idtf:
+[foundation date*] ;;
+
+nrel_region <- sc_node_norole_relation;;
+nrel_region => nrel_main_ru_idtf:
+[область*] ;;
+nrel_region => nrel_main_en_idtf:
+[region*] ;;
+
+nrel_district <- sc_node_norole_relation;;
+nrel_district => nrel_main_ru_idtf:
+[район*] ;;
+nrel_district => nrel_main_en_idtf:
+[district*] ;;
+
+nrel_locality <- sc_node_norole_relation;;
+nrel_locality => nrel_main_ru_idtf:
+[населенный пункт*] ;;
+nrel_locality => nrel_main_en_idtf:
+[locality*] ;;
+
+nrel_state <- sc_node_norole_relation;;
+nrel_state => nrel_main_ru_idtf:
+[состояние*] ;;
+nrel_state => nrel_main_en_idtf:
+[state*] ;;
+
+nrel_politic <- sc_node_norole_relation;;
+nrel_politic => nrel_main_ru_idtf:
+[политико-административное значение*] ;;
+nrel_politic => nrel_main_en_idtf:
+[political-administrative value*] ;;
+
+nrel_native <- sc_node_norole_relation;;
+nrel_native => nrel_main_ru_idtf:
+[известный уроженец и житель*] ;;
+nrel_native => nrel_main_en_idtf:
+[native*] ;;
+
+loew=> nrel_population: [7 000];;
+loew=> nrel_foundation_date: [1505];;
+loew=> nrel_region: [Гомельская область];; 
+loew=> nrel_district: [Лоевский район];;
+loew=> nrel_locality: [город Хойники];;
+loew=> nrel_state: [жилой] ;;
+loew=> nrel_politic: [центр района] ;;
+loew=> nrel_native: [Аврунин Авраам] ;;
+loew=> nrel_native: [Глускин Менахем Мендел] ;;
+loew=> nrel_native: [Курцер Бронислава Марковна] ;;
+loew=> nrel_native: [Туровский Марк Ильич] ;;
+loew=> nrel_native: [Цыганов(Марголин) Натан Вениаминович];;
