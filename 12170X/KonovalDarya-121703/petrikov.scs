@@ -1,0 +1,47 @@
+petrikov => nrel_main_ru_idtf:
+[Петриков] ;;
+petrikov => nrel_main_en_idtf:
+[Petrikov] ;;
+
+nrel_population <- sc_node_norole_relation;;
+nrel_population => nrel_main_ru_idtf:
+[население*] ;;
+nrel_population => nrel_main_en_idtf:
+[population*] ;;
+
+nrel_region <- sc_node_norole_relation;;
+nrel_region => nrel_main_ru_idtf:
+[область*] ;;
+nrel_region => nrel_main_en_idtf:
+[region*] ;;
+
+nrel_district <- sc_node_norole_relation;;
+nrel_district => nrel_main_ru_idtf:
+[район*] ;;
+nrel_district => nrel_main_en_idtf:
+[district*] ;;
+
+nrel_locality <- sc_node_norole_relation;;
+nrel_locality => nrel_main_ru_idtf:
+[населенный пункт*] ;;
+nrel_locality => nrel_main_en_idtf:
+[locality*] ;;
+
+nrel_state <- sc_node_norole_relation;;
+nrel_state => nrel_main_ru_idtf:
+[состояние*] ;;
+nrel_state => nrel_main_en_idtf:
+[state*] ;;
+
+nrel_politic <- sc_node_norole_relation;;
+nrel_politic => nrel_main_ru_idtf:
+[политико-административное значение*] ;;
+nrel_politic => nrel_main_en_idtf:
+[political-administrative value*] ;;
+
+petrikov=> nrel_population: [11 000];;
+petrikov=> nrel_region: [Гомельская область];; 
+petrikov=> nrel_district: [Петриковский район];;
+petrikov=> nrel_locality: [город Петриков];;
+petrikov=> nrel_state: [жилой] ;;
+petrikov=> nrel_politic: [центр района] ;;
