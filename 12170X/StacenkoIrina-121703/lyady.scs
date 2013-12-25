@@ -1,0 +1,41 @@
+lyady => nrel_main_ru_idtf:
+[Ляды] ;;
+lyady => nrel_main_en_idtf:
+[Lyady] ;;
+
+nrel_region <- sc_node_norole_relation;;
+nrel_region => nrel_main_ru_idtf:
+[область*] ;;
+nrel_region => nrel_main_en_idtf:
+[region*] ;;
+
+nrel_district <- sc_node_norole_relation;;
+nrel_district => nrel_main_ru_idtf:
+[район*] ;;
+nrel_district => nrel_main_en_idtf:
+[district*] ;;
+
+nrel_locality <- sc_node_norole_relation;;
+nrel_locality => nrel_main_ru_idtf:
+[населенный пункт*] ;;
+nrel_locality => nrel_main_en_idtf:
+[locality*] ;;
+
+nrel_state <- sc_node_norole_relation;;
+nrel_state => nrel_main_ru_idtf:
+[состояние*] ;;
+nrel_state => nrel_main_en_idtf:
+[state*] ;;
+
+nrel_politic <- sc_node_norole_relation;;
+nrel_politic => nrel_main_ru_idtf:
+[политико-административное значение*] ;;
+nrel_politic => nrel_main_en_idtf:
+[political-administrative value*] ;;
+
+lyady=> nrel_foundation_date: [1824];;
+lyady=> nrel_region: [Минская область];; 
+lyady=> nrel_district: [Крупский район];;
+lyady=> nrel_locality: [деревня Ляды];;
+lyady=> nrel_state: [жилой] ;;
+lyady=> nrel_politic: [не имеет политико-административного значения] ;;
