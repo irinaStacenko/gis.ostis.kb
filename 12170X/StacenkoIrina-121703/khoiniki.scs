@@ -1,0 +1,93 @@
+khoiniki => nrel_main_ru_idtf:
+[Хойники] ;;
+khoiniki => nrel_main_en_idtf:
+[Khoiniki] ;;
+
+nrel_population <- sc_node_norole_relation;;
+nrel_population => nrel_main_ru_idtf:
+[РЅР°СЃРµР»РµРЅРёРµ*] ;;
+nrel_population => nrel_main_en_idtf:
+[population*] ;;
+
+nrel_foundation_date <- sc_node_norole_relation;;
+nrel_foundation_date => nrel_main_ru_idtf:
+[дата основания*] ;;
+nrel_foundation_date => nrel_main_en_idtf:
+[foundation date*] ;;
+
+nrel_region <- sc_node_norole_relation;;
+nrel_region => nrel_main_ru_idtf:
+[область*] ;;
+nrel_region => nrel_main_en_idtf:
+[region*] ;;
+
+nrel_district <- sc_node_norole_relation;;
+nrel_district => nrel_main_ru_idtf:
+[район*] ;;
+nrel_district => nrel_main_en_idtf:
+[district*] ;;
+
+nrel_locality <- sc_node_norole_relation;;
+nrel_locality => nrel_main_ru_idtf:
+[населенный пункт*] ;;
+nrel_locality => nrel_main_en_idtf:
+[locality*] ;;
+
+nrel_state <- sc_node_norole_relation;;
+nrel_state => nrel_main_ru_idtf:
+[состояние*] ;;
+nrel_state => nrel_main_en_idtf:
+[state*] ;;
+
+nrel_politic <- sc_node_norole_relation;;
+nrel_politic => nrel_main_ru_idtf:
+[политико-административное значение*] ;;
+nrel_politic => nrel_main_en_idtf:
+[political-administrative value*] ;;
+
+nrel_showplace <- sc_node_norole_relation;;
+nrel_showplace => nrel_main_ru_idtf:
+[достопримечательность*] ;;
+nrel_showplace => nrel_main_en_idtf:
+[showplace*] ;;
+
+nrel_native <- sc_node_norole_relation;;
+nrel_native => nrel_main_ru_idtf:
+[известный уроженец и житель*] ;;
+nrel_native => nrel_main_en_idtf:
+[native*] ;;
+
+nrel_enterprise <- sc_node_norole_relation;;
+nrel_enterprise => nrel_main_ru_idtf:
+[предприятие*] ;;
+nrel_enterprise => nrel_main_en_idtf:
+[enterprise*] ;;
+
+khoiniki=> nrel_population: [13, 8];;
+khoiniki=> nrel_foundation_date: [1512];;
+khoiniki=> nrel_region: [Гомельская область];; 
+khoiniki=> nrel_district: [Хойникский район];;
+khoiniki=> nrel_locality: [город Хойники];;
+khoiniki=> nrel_state: [жилой] ;;
+khoiniki=> nrel_politic: [центр района] ;;
+khoiniki=> nrel_showplace: [Рудавское имение] ;;
+khoiniki=> nrel_showplace: [Хойникская Свято-Покровская церковь] ;;
+khoiniki=> nrel_showplace: [Усадебный комплекс] ;;
+khoiniki=> nrel_showplace: [Борисовщанская усадьба] ;;
+khoiniki=> nrel_native: [Вергейчик Елена Ефимовна] ;;
+khoiniki=> nrel_native: [Иван Павлович Мележ] ;;
+khoiniki=> nrel_native: [Алла Конопелько] ;;
+khoiniki=> nrel_native: [Борис Саченко] ;;
+khoiniki=> nrel_enterprise: [ППУ ОАО Молочные продукты] ;;
+khoiniki=> nrel_enterprise: [ОАО Хойникский завод железобетонных изделий] ;;
+khoiniki=> nrel_enterprise: [КПУП Хойникский ремонтный завод] ;;
+khoiniki=> nrel_enterprise: [ОАО Хойникский аргосервис] ;;
+khoiniki=> nrel_enterprise: [ГП Совхозкомбинат Заря] ;;
+khoiniki=> nrel_enterprise: [ГЛХУ Хойникский лесхоз] ;;
+khoiniki=> nrel_enterprise: [РПУП Гомельоблгаз филиал ТБЗ Хойникский] ;;
+khoiniki=> nrel_enterprise: [ДРУП Хойникский завод гидроаппаратуры] ;;
+khoiniki=> nrel_enterprise: [РУП Хойникская фабрика художественных изделий] ;;
+khoiniki=> nrel_enterprise: [КПУП МебельДревТорг] ;;
+khoiniki=> nrel_enterprise: [Хойникский леспромхоз ЗАО Мозырьлес] ;;
+khoiniki=> nrel_enterprise: [КПУП Полиграф] ;;
+khoiniki=> nrel_enterprise: [ОАО Хойникский комбинат бытового обслуживания] ;;
